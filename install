@@ -1,0 +1,8 @@
+#! /bin/bash
+
+make VENV=my_venv setup
+chmod +x ./aliases.sh
+chmod +x ./run.sh 
+source  ./aliases.sh
+echo ""
+echo "***********DHUMTANA INSTALLED***********"
